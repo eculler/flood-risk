@@ -1,0 +1,23 @@
+name: flood-risk
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - ipykernel
+  - ipywidgets
+  - numpy=1.26
+
+  # Work with spatial data
+  - geopandas
+  - rioxarray
+  - pysheds
+
+  # Download data
+  - requests
+  - aiohttp
+  - earthaccess
+
+  # Data visualization
+  - matplotlib
